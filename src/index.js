@@ -18,7 +18,7 @@ app.use(morgan('tiny'))
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/orders', orderRoutes);
-// app.use('/api/products', productRoutes);
+app.use('/api/products', productRoutes);
 // app.use('/api/users', userRoutes);
 
 
